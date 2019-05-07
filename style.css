@@ -66,7 +66,7 @@ nav {
   	position: -webkit-sticky;
   	top: 0;
 	margin: 0px;
-	padding: 5px 0px 0px 5px;
+	padding: 5px 0px 0px 3px;
 	background-color: white;
 	border-bottom: solid #a3a3a3 1px;
 	z-index: 20;
@@ -126,6 +126,7 @@ nav ul {
 	padding: 5px;
 	border: solid #f6f6f6 1px;
 }
+
 .dropdown-content div:hover {
 	background-color: #f9f9f9;
 }
@@ -330,3 +331,28 @@ input[type="text"] {
 	font-size: 16px;
 	width: 100px;
 }
+
+.citrus:hover {
+	text-shadow: 2px 3px 10px #ffff72;
+}
+
+.green-floral:hover {
+	text-shadow: 2px 3px 10px #bbff68;
+}
+
+.floral:hover {
+	text-shadow: 2px 3px 10px #ffbfef;
+}
+
+.aromatic:hover {
+	text-shadow: 2px 3px 10px #eeb7ff;
+}
+
+.woody:hover {
+	text-shadow: 2px 3px 10px #ffe1c4;
+}
+
+.oriental:hover {
+	text-shadow: 2px 3px 10px #ffaaa3;
+}
+
