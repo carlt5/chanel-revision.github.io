@@ -368,28 +368,59 @@ input[type="text"] {
 #olfactories {
 	display: grid;
 	justify-content: center;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	margin: 5px;
 }
 
 .olfactory {
 	background-color: white;
-	border: solid black 2px;
 	border-radius: 10px;
-	border: solid 10px rgba(55,145,99,0.5);
+}
+
+#citrus {
+	border: solid #fff138 2px;
+}
+#greenfloral {
+	border: solid #fff138 2px;
+}
+#lightfloral {
+	border: solid #fff138 2px;
+}
+#intensefloral {
+	border: solid #fff138 2px;
+}
+#aromatic {
+	border: solid #fff138 2px;
+}
+#softwoody {
+	border: solid #fff138 2px;
+}
+#deepwoody {
+	border: solid #fff138 2px;
+}
+#softoriental {
+	border: solid #fff138 2px;
+}
+#envoriental {
+	border: solid #fff138 2px;
 }
 
 #olfactories p {
 	font-size: 13px;
-	margin: 0px;
+	margin: 0px 0px 8px 0px;
+	text-align: center;
+}
+
+#olfactories ul {
+	margin: 10px 5px;
+	padding: 0px;
 }
 
 #olfactories li {
 	font-size: 1.1em;
 	list-style-type: none;
-}
-
-#olfactories p {
-	margin-bottom: 4px;
+	margin: 0px;
+	text-align: center;
 }
 
 .olftitle {
