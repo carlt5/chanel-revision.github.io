@@ -374,41 +374,53 @@ input[type="text"] {
 
 .olfactory {
 	background-color: white;
+	border: solid black 2px;
 	border-radius: 10px;
+	margin: 1px;
 }
 
-#citrus {
-	border: solid #fff138 2px;
+#citrus:hover {
+	background-color: rgba(252, 255, 58, 0.1);
+	transition: all 700ms;
 }
-#greenfloral {
-	border: solid #fff138 2px;
+#greenfloral:hover {
+	background-color: rgba(126, 255, 58, 0.1);
+	transition: all 700ms;
 }
-#lightfloral {
-	border: solid #fff138 2px;
+#lightfloral:hover {
+	background-color: rgba(255, 140, 228, 0.2);
+	transition: all 700ms;
 }
-#intensefloral {
-	border: solid #fff138 2px;
+#intensefloral:hover {
+	background-color: rgba(255, 0, 200, 0.3);
+	transition: all 700ms;
 }
-#aromatic {
-	border: solid #fff138 2px;
+#aromatic:hover {
+	background-color: rgba(206, 94, 255, 0.2);
+	transition: all 700ms;
 }
-#softwoody {
-	border: solid #fff138 2px;
+#softwoody:hover {
+	background-color: rgba(255, 182, 103, 0.1);
+	transition: all 700ms;
 }
-#deepwoody {
-	border: solid #fff138 2px;
+#deepwoody:hover {
+	background-color: rgba(130, 56, 0, 0.2);
+	transition: all 700ms;
 }
-#softoriental {
-	border: solid #fff138 2px;
+#softoriental:hover {
+	background-color: rgba(255, 119, 16, 0.1);
+	transition: all 700ms;
 }
-#envoriental {
-	border: solid #fff138 2px;
+#envoriental:hover {
+	background-color: rgba(255, 0, 0, 0.2);
+	transition: all 700ms;
 }
 
 #olfactories p {
 	font-size: 13px;
 	margin: 0px 0px 8px 0px;
 	text-align: center;
+	text-transform: lowercase;
 }
 
 #olfactories ul {
@@ -425,4 +437,7 @@ input[type="text"] {
 
 .olftitle {
 	text-align: center;
+	margin-top: 5px;
+	text-decoration: underline;
+	text-transform: uppercase;
 }
