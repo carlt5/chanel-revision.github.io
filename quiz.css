@@ -1,0 +1,154 @@
+html {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #F5F5DC;
+	font-family: 'Oxygen', sans-serif;
+	margin: 0;
+	padding: 0;
+	cursor: default;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+h1 {
+	cursor: default;
+	margin: 0px;
+	margin-left: 5%;
+}
+
+h2 {
+	margin: 10px 0px 5px 2.5%;
+}
+
+h3 {
+	margin-left: 5%;
+	font-size: calc(1.15em + 0.3vw);
+}
+
+h5 {
+	margin-left: 3%;
+	font-size: calc(0.9em + 0.3vw);
+	font-weight: lighter;
+}
+
+p {
+	margin: 8px;
+}
+/* nav styles */
+
+nav {
+	position: sticky;
+  	position: -webkit-sticky;
+  	top: 0;
+	margin: 0px;
+	padding: 5px 0px 0px 0px;
+	background-color: white;
+	border-bottom: solid #a3a3a3 1px;
+	z-index: 20;
+}
+
+nav ul {
+	margin: 0px;
+}
+
+#nav {
+	display: flex;
+	align-items: center;
+	padding-left: 0;
+}
+
+#nav li {
+	display: inline;
+	list-style-type: none;
+	margin: 0px;
+	font-size: calc(0.8em + 0.6vw);
+	padding-right: 20px;
+}
+
+
+.dropbtn {
+	font-size: 1em;
+	cursor: default;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: white;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	min-width: 280px;
+	font-size: 0.9em;
+	text-align: left;
+	padding: 0px;
+	z-index: 1;
+}
+.dropdown-content div {
+	margin: 0px;
+	padding: 5px;
+	border: solid #f6f6f6 1px;
+}
+
+.dropdown-content div:hover {
+	background-color: #f9f9f9;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/* top bar style */
+
+#header {
+	background-color: white;
+	margin: 0px 0px 15px 0px;
+	padding: 10px 5px 10px 5px;
+	border-bottom: solid 3px black;
+	border-bottom-right-radius: 80px;
+	box-shadow: 6px 6px 10px -6px grey;
+}
+
+/* main quiz styles */
+
+#quizholder {
+	margin: 10px;
+	background-color: white;
+	border: solid black 2px;
+
+}
+
+/* Buttons */
+input {
+	font-size: 1.5em;
+}
+
+button {
+	cursor: pointer;
+	font-size: 25px;
+	padding: 10px 50px;
+	margin: 20px;
+	background-color: white;
+	color: black;
+	border: solid 2px black;
+}
+
+button:hover {
+	box-shadow: 3px 3px 5px grey;
+	background-color: #e5e5e5;
+	transition: all 500ms ease; 
+}
+
+#buttons {
+	display: flex;
+	justify-content: space-evenly;
+}

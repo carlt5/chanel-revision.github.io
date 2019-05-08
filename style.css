@@ -177,6 +177,10 @@ nav ul {
 	margin-left: 10%;
 }
 
+.black {
+	color: black;
+}
+
 .headerframe {
 	background-color: black;
 	margin: 15px 0px 5px 0px;
