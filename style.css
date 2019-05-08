@@ -91,7 +91,7 @@ nav ul {
 	display: inline;
 	list-style-type: none;
 	margin: 0px;
-	font-size: 2.2vw;
+	font-size: calc(0.8em + 0.6vw);
 	padding-right: 20px;
 }
 
@@ -363,27 +363,35 @@ input[type="text"] {
 	width: 100px;
 }
 
-.citrus:hover {
-	text-shadow: 2px 3px 10px #ffff72;
+/* Olfactory page setup  */
+
+#olfactories {
+	display: grid;
+	justify-content: center;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-.green-floral:hover {
-	text-shadow: 2px 3px 10px #bbff68;
+.olfactory {
+	background-color: white;
+	border: solid black 2px;
+	border-radius: 10px;
+	border: solid 10px rgba(55,145,99,0.5);
 }
 
-.floral:hover {
-	text-shadow: 2px 3px 10px #ffbfef;
+#olfactories p {
+	font-size: 13px;
+	margin: 0px;
 }
 
-.aromatic:hover {
-	text-shadow: 2px 3px 10px #eeb7ff;
+#olfactories li {
+	font-size: 1.1em;
+	list-style-type: none;
 }
 
-.woody:hover {
-	text-shadow: 2px 3px 10px #ffe1c4;
+#olfactories p {
+	margin-bottom: 4px;
 }
 
-.oriental:hover {
-	text-shadow: 2px 3px 10px #ffaaa3;
+.olftitle {
+	text-align: center;
 }
-
