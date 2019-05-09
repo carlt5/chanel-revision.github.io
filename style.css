@@ -319,22 +319,10 @@ nav ul {
 	font-size: 30px;
 }
 
-#fragrance-families {
+.maincontainer {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
-}
-
-#exsclusifs {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-#othersections {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-evenly;
 }
 
 .card {

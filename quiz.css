@@ -148,7 +148,25 @@ button:hover {
 	transition: all 500ms ease; 
 }
 
+#tryagain {
+	padding: 10px;
+}
+
+#trybar {
+	display: block;
+}
 #buttons {
 	display: flex;
 	justify-content: space-evenly;
+}
+
+#resultsbar {
+	display: none;
+	background-color: white;
+	border: solid black 3px;
+	margin: 0px 25px 10px 25px;
+	height: 120px;
+	padding: 5px;
+	text-align: center;
+	font-size: 2em;
 }
