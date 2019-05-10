@@ -3,6 +3,12 @@ html {
 	padding: 0px;
 }
 
+div #quizdrop {
+	position: right;
+	background-color: lightblue;
+	font-color: black;
+}
+
 body {
 	background-color: #F5F5DC;
 	font-family: 'Oxygen', sans-serif;
@@ -71,7 +77,6 @@ nav ul {
 	padding-right: 20px;
 }
 
-
 .dropbtn {
 	font-size: 1em;
 	cursor: default;
@@ -93,6 +98,21 @@ nav ul {
 	padding: 0px;
 	z-index: 1;
 }
+
+i {
+	font-size: calc(1em + 0.6vw);
+	padding: 2px;
+}
+
+nav i:hover {
+	text-shadow: 0px 0px 8px #eeff00;
+}
+
+.right {
+	right: -80px;
+	min-width: 220px;
+}
+
 .dropdown-content div {
 	margin: 0px;
 	padding: 5px;

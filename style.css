@@ -125,6 +125,21 @@ nav ul {
 	padding: 0px;
 	z-index: 1;
 }
+
+i {
+	font-size: calc(1em + 0.6vw);
+	padding: 2px;
+}
+
+nav i:hover {
+	text-shadow: 0px 0px 8px #eeff00;
+}
+
+.right {
+	right: -80px;
+	min-width: 220px;
+}
+
 .dropdown-content div {
 	margin: 0px;
 	padding: 5px;
