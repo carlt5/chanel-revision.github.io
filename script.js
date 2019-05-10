@@ -43,7 +43,7 @@ function attUpdate() {
 }
 
 function randomRemove() {
-	let num = Math.floor((Math.random() * 3) + 5)
+	let num = Math.floor((Math.random() * 3) + 6)
 	let liLength = document.querySelectorAll("li").length;
 	for (x = num; x < liLength; x += 3) {
 		remove(x);
