@@ -147,6 +147,12 @@ nav i:hover {
 
 }
 
+.h {
+	text-decoration: underline;
+	font-weight: bold;
+	color: #ab0000;
+}
+
 /* Buttons */
 input {
 	font-size: 1.5em;

@@ -1,5 +1,5 @@
 let score = 0;
-let correctanswers = [0,2,2]
+let correctanswers = [0,2,1,3,2,2,1,1,2,0]
 
 const checker = () => {
 	let length = document.getElementsByClassName("question").length
