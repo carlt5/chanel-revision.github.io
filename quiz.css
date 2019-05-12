@@ -34,7 +34,7 @@ h2 {
 
 h3 {
 	margin-left: 5%;
-	font-size: calc(1.15em + 0.3vw);
+	font-size: calc(1em + 0.4vw);
 }
 
 h5 {
@@ -156,6 +156,13 @@ nav i:hover {
 i {
 	display: none;
 }
+
+/* Quiz styles */
+
+label {
+	font-size: calc(0.8em + 1vw);
+}
+
 /* Buttons */
 input {
 	font-size: 1.5em;
