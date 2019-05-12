@@ -153,6 +153,9 @@ nav i:hover {
 	color: #ab0000;
 }
 
+i {
+	display: none;
+}
 /* Buttons */
 input {
 	font-size: 1.5em;

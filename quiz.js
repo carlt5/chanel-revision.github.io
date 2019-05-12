@@ -1,14 +1,27 @@
 let score = 0;
-let correctanswers = [0,2,1,3,2,2,1,1,2,0]
+let correctanswers = [];
+
+
+const getAnswers = (int) => {
+	let answerNumbers = document.getElementsByClassName("hidden");
+	let answerNum = answerNumbers[int]
+	let answerCopy = answerNum.cloneNode(true);
+	correctanswers.push(answerCopy.innerHTML)
+}
 
 const checker = () => {
-	let length = document.getElementsByClassName("question").length
+	let questions = document.getElementsByClassName("question")
+	let length = questions.length
 	for (let int = 0; int < length; int++) {
+		getAnswers(int)
 	let radios = document.getElementsByName("q" + int);
 	let x = correctanswers[int];
 		if (radios[x].checked) {
 			score++;
-		} 	
+			questions[int].style.background = "linear-gradient(45\deg, #99ff9c 0%,#e7ffe0 20%, white 60%)";
+		} 	else {
+			questions[int].style.background = "linear-gradient(45\deg, #ffa29b 0%,#ffe0dd 20%, white 60%)";
+		}
 	}		
 	display(score, length)
 }
@@ -30,7 +43,7 @@ if (percentage == 100) {
 	results.innerHTML = "You Scored " + percentage + "%";
 	const resbar = document.getElementById("resultsbar")
 	resbar.style.display = "block"
-}
+	}
 }
 
 const reset = () => {
@@ -43,6 +56,9 @@ const reset = () => {
 	let total = radiocheck.length
 	for (let i = 0; i < total; i++)
 		radiocheck[i].checked = false;
+	let questions = document.getElementsByClassName("question");
+	for (let n = 0; n < questions.length; n++)
+		questions[n].style.background = "";
 }
 
 const submit = document.getElementById("submit")
