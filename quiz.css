@@ -161,7 +161,7 @@ i {
 /* Quiz styles */
 
 label {
-	font-size: calc(0.8em + 0.6vw);
+	font-size: 110%;
 }
 
 /* Buttons */
