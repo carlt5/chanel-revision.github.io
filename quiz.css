@@ -1,6 +1,7 @@
 html {
 	margin: 0px;
 	padding: 0px;
+	font-size: calc(0.7em + 0.4vw);
 }
 
 div #quizdrop {
@@ -34,7 +35,7 @@ h2 {
 
 h3 {
 	margin-left: 5%;
-	font-size: calc(1em + 0.4vw);
+	font-size: 130%;
 }
 
 h5 {
@@ -160,7 +161,7 @@ i {
 /* Quiz styles */
 
 label {
-	font-size: calc(0.8em + 1vw);
+	font-size: calc(0.8em + 0.6vw);
 }
 
 /* Buttons */
