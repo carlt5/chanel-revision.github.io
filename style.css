@@ -1,7 +1,7 @@
 html {
 	margin: 0px;
 	padding: 0px;
-	font-size: calc(0.7em + 0.4vw);
+	font-size: calc(0.7em + 0.3vw);
 }
 
 body {
@@ -34,6 +34,19 @@ h4 {
 h2 {
 	margin-top: 20px;
 	margin-bottom: 10px;
+}
+
+li {
+	font-size: 120%;
+}
+
+@media screen and (max-width: 600px) {
+	li {
+		font-size: 90%;
+	}
+		#nav li {
+	font-size: calc(1.3em + 0.6vw)
+	}
 }
 
 button {
@@ -231,6 +244,7 @@ nav i:hover {
 	justify-content: center;
 	grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
 }
+/* Highlight Styles */
 
 .h {
 	font-weight: bold;
