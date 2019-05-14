@@ -28,7 +28,6 @@ h4 {
 	text-decoration: underline;
 	margin-top: 8px;
 	margin-bottom: 5px;
-
 }
 
 h2 {
@@ -149,7 +148,7 @@ nav i:hover {
 	text-shadow: 0px 0px 8px #eeff00;
 }
 
-.right {
+.rightDrop {
 	right: -80px;
 	min-width: 220px;
 }

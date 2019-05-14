@@ -4,12 +4,6 @@ html {
 	font-size: calc(0.7em + 0.4vw);
 }
 
-div #quizdrop {
-	position: right;
-	background-color: lightblue;
-	font-color: black;
-}
-
 body {
 	background-color: #F5F5DC;
 	font-family: 'Oxygen', sans-serif;
@@ -36,6 +30,14 @@ h2 {
 h3 {
 	margin-left: 5%;
 	font-size: 130%;
+}
+
+h4 {
+	font-weight: bold;
+	text-decoration: underline;
+	margin-top: 15px;
+	margin-left: 40px;
+	padding: 0px;
 }
 
 h5 {
@@ -109,7 +111,7 @@ nav i:hover {
 	text-shadow: 0px 0px 8px #eeff00;
 }
 
-.right {
+.rightDrop {
 	right: -80px;
 	min-width: 220px;
 }
@@ -206,4 +208,68 @@ button:hover {
 	padding: 5px;
 	text-align: center;
 	font-size: 2em;
+}
+
+/* big quiz styles */
+
+#startHolder {
+	display: block;
+	text-align: center;
+	margin: 30px;
+	padding: 15px 8px 5px 8px;
+	background-color: white;
+	border: solid black 2px;
+	border-radius: 10px;
+}
+
+#quizHolder {
+	display: none;
+	margin: 10px;
+}
+
+#fragranceTitle {
+	background-color: black;
+	border-radius: 10px;
+	color: white;
+	font-size: 0.8em;
+	width: 25%;
+	margin-top: 20px;
+	padding: 5px 0px 5px 15px;
+}
+
+#question {
+	margin-top: 30px;
+}
+
+#buttonHolder {
+	text-align: center;
+}
+
+#endHolder {
+	margin: 30px;
+	padding: 6px;
+	background-color: white;
+	border: solid black 2px;
+	border-radius: 10px;
+	display: none;
+	text-align: center;
+}
+
+#endMessage {
+	margin: 25px;
+}
+
+#timerBar {
+	width: 80%;
+	margin: 5% 10%;
+	background-color: white;
+	border: solid black 1px;
+	border-radius: 5px;
+}
+
+#timerFill {
+width: 0%;
+height: 30px;
+border-radius: 5px;
+background-color: green;
 }

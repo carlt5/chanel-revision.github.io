@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>CHANEL Fragrance Review</title>
-	<link rel="stylesheet" type="text/css" href="quiz.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Oxygen:400,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
@@ -59,47 +59,141 @@
 
 <!-- Header Bar -->
 	<div id="header">
-		<h1>CHANEL Fragrance: The Big Quiz</h1>
+		<h1>CHANEL: Les Eaux</h1>
+		<p>Review the fragrance ingredients then when ready click the 'Test Me!' button to test your knowledge!</p>
 	</div>
 
-<!-- Start of Quiz -->
-<div id="main">
+<!-- Start of Fragrances & Ingredients -->
+<div id="quiz">
+	
+	<div><h2 class="fragrance">Paris Deauville</h2></div>
+	<div class="ingredients">
 
-	<div id="startHolder">
-		<h1>Time to test all of your fragrance knowledge!</h1><br><h2>When you click start a question will appear on the screen with 5 possible answers.<br>Select the correct answer to move on to the next.<br>You have 20 seconds to answer each question but get it wrong or run out of time and the games over.<br> Good Luck! </h2>
-		<button id="start">Start</button>
-	</div>
-
-	<div id="quizHolder">
-		<h3 id="question"></h3>
-			<div id="buttonHolder">
-				<button id="answer1"></button>
-				<button id="answer2"></button>
-				<button id="answer3"></button>
-				<button id="answer4"></button>
-				<button id="answer5"></button>
-			</div>
-			<div id="score"></div>
-			<div id="timerBar"><div id="timerFill"></div></div>
-	</div>	
-
-	<div id="endHolder">
-		<div>
-			<h2 id="endMessage"></h2>
+		<div class="section">		
+			<h4>Head</h4>
+				<ul>
+					<li>Petit Grain Oil</li>
+					<li>Orange</li>
+					<li>Basil</li>
+				</ul>
 		</div>
-		<div id="finalScore"></div>
-		<button id="playAgain">Play Again?</button>
+
+		<div class="section">
+			<h4>Heart</h4>
+				<ul>
+					<li>Rose</li>
+					<li>Jasmine</li>
+				</ul>
+		</div>
+
+		<div class="section">		
+			<h4>Trail</h4>
+				<ul>
+					<li>Patchouli</li>
+				</ul>
+		</div>
+
+		<div class="section">		
+			<h4>Descriptive</h4>
+				<ul>
+					<li>Picturesque</li>
+					<li>Calm</li>
+					<li>Countryside</li>
+				</ul>
+		</div>
+	</div>
+
+	<div><h2 class="fragrance">Paris Venise</h2></div>
+	<div class="ingredients">
+
+		<div class="section">		
+			<h4>Head</h4>
+				<ul>
+					<li>Neroli</li>
+					<li>Red Fruit Accord</li>
+				</ul>
+		</div>
+
+		<div class="section">
+			<h4>Heart</h4>
+				<ul>
+					<li>Iris</li>
+					<li>Geranium</li>
+				</ul>
+		</div>
+
+		<div class="section">		
+			<h4>Trail</h4>
+				<ul>
+					<li>Cedarwood</li>
+					<li>Ambery Accord</li>
+				</ul>
+		</div>
+
+		<div class="section">		
+			<h4>Descriptive</h4>
+				<ul>
+					<li>Gateway to the Orient</li>
+					<li>Baroque</li>
+					<li>Bizantine</li>
+				</ul>
+		</div>
+	</div>
+
+	<div><h2 class="fragrance">Paris Biaritz</h2></div>
+	<div class="ingredients">
+
+		<div class="section">		
+			<h4>Head</h4>
+				<ul>
+					<li>Mandarin</li>
+					<li>Grapefruit</li>
+				</ul>
+		</div>
+
+		<div class="section">
+			<h4>Heart</h4>
+				<ul>
+					<li>Lily of the Valley</li>
+					<li>Orange</li>
+				</ul>
+		</div>
+
+		<div class="section">		
+			<h4>Trail</h4>
+				<ul>
+					<li>Vetiver</li>
+					<li>White Musk</li>
+				</ul>
+		</div>
+
+		<div class="section">		
+			<h4>Descriptive</h4>
+				<ul>
+					<li>Thalasso</li>
+					<li>Wellness</li>
+					<li>Vitality</li>
+				</ul>
+		</div>
 	</div>
 
 </div>
 
-<!-- Buttons & Results -->
+<!-- Buttons -->
 
-<div id="resultsbar">
-	<div class ="info" id="results"></div>
-	<div id="trybar">Would you like to <button id="tryagain">Try Again?</button></div>
+
+<div id="buttons">
+	<button id="random">Test Me!</button>
+	<button id="submit">Get Results</button>
+
 </div>
 
-<script type="text/javascript" src="bigquiz.js"></script>
+<!-- Score Bar -->
+<div id="resultsbar">
+	<div class ="info" id="results">Score = 0</div>
+	<div class ="info" id="attempts">Attempts = 0</div>
+</div>
+
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
