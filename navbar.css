@@ -91,7 +91,7 @@ nav i:hover {
 	flex-grow: 3;
 }
 
-@media screen and (max-width: 686px) {
+@media screen and (max-width: 700px) {
 	.mobnav {
 		display: flex;
 		font-size: 110%;
