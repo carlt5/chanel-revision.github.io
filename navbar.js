@@ -3,8 +3,8 @@ const navload = () => {
 	const navbar = document.getElementById("navbody");
 
 	navbar.innerHTML = 
-			`<nav>
-		<ul id="nav">
+	`<nav>
+		<ul class="nav webnav">
 			<li><img src="../fragrance_imgs/chanellogo.jpg" height="65px"></li>
 			<li><a href="../index.html">HOME</a></li>
 			<li class="dropdown">
@@ -46,6 +46,22 @@ const navload = () => {
 					<a href="../quizs/quiz1.html"><div>Quiz 1. Ingredients</div></a>
 					<a href="../quizs/quiz2.html"><div>Quiz 2. Which Fragrance?</div></a>
 					<a href="../quizs/quiz3.html"><div>Quiz 3. The Big Quiz!</div></a>
+				</div>
+			</li>
+		</ul>
+	
+		<!-- mobile navbar -->
+
+		<ul class="nav mobnav">
+			<li><img src="../fragrance_imgs/chanellogo.jpg" height="65px"></li>
+			<li><a href="index.html">HOME</a></li>
+			<li class="block"></li>
+			<li class="mob-dropdown" id="questionmark">
+				<i class="fas fa-bars"></i>
+				<div class="mob-dropdown-content">
+					<a href="./quizs/quiz1.html"><div>Heritage</div></a>
+					<a href="./quizs/quiz2.html"><div>Les Exsclusifs</div></a>
+					<a href="./quizs/quiz3.html"><div>Notable Accords</div></a>
 				</div>
 			</li>
 		</ul>
