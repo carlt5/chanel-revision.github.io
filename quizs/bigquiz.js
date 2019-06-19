@@ -1,4 +1,5 @@
 let score = 0;
+let lives = 3;
 
 const begin = document.getElementById("start")
 const question = document.getElementById("question");
@@ -355,7 +356,14 @@ const checkAnswer = (answer) => {
 		updateScore()
 		randomQuestion()
 	} else {
-		endQuiz();
+		if (lives == 1) {
+			endQuiz()
+		}
+		else {
+			lives--;
+			console.log(lives);
+			randomQuestion();
+		}
 	}
 };
 

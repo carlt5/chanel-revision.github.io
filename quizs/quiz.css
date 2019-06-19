@@ -1,7 +1,7 @@
 html {
 	margin: 0px;
 	padding: 0px;
-	font-size: calc(0.7em + 0.4vw);
+	font-size: 100%;
 }
 
 body {
@@ -48,86 +48,6 @@ h5 {
 
 p {
 	margin: 8px;
-}
-/* nav styles */
-
-nav {
-	position: sticky;
-  	position: -webkit-sticky;
-  	top: 0;
-	margin: 0px;
-	padding: 5px 0px 0px 0px;
-	background-color: white;
-	border-bottom: solid #a3a3a3 1px;
-	z-index: 20;
-}
-
-nav ul {
-	margin: 0px;
-}
-
-#nav {
-	display: flex;
-	align-items: center;
-	padding-left: 0;
-}
-
-#nav li {
-	display: inline;
-	list-style-type: none;
-	margin: 0px;
-	font-size: calc(0.8em + 0.6vw);
-	padding-right: 20px;
-}
-
-.dropbtn {
-	font-size: 1em;
-	cursor: default;
-}
-
-.dropdown {
-	position: relative;
-	display: inline-block;
-}
-
-.dropdown-content {
-	display: none;
-	position: absolute;
-	background-color: white;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	min-width: 280px;
-	font-size: 0.9em;
-	text-align: left;
-	padding: 0px;
-	z-index: 1;
-}
-
-i {
-	font-size: calc(1em + 0.6vw);
-	padding: 2px;
-}
-
-nav i:hover {
-	text-shadow: 0px 0px 8px #eeff00;
-}
-
-.rightDrop {
-	right: -80px;
-	min-width: 220px;
-}
-
-.dropdown-content div {
-	margin: 0px;
-	padding: 5px;
-	border: solid #f6f6f6 1px;
-}
-
-.dropdown-content div:hover {
-	background-color: #f9f9f9;
-}
-
-.dropdown:hover .dropdown-content {
-	display: block;
 }
 
 /* top bar style */

@@ -41,8 +41,8 @@ const navload = () => {
 				</div>
 			</li>
 			<li class="dropdown" id="questionmark">
-				<i class="far fa-question-circle"></i>
-				<div class="dropdown-content rightDrop" id="quizdrop">
+				<i class="smargin far fa-question-circle"></i>
+				<div class="dropdown-content end-drop" id="quizdrop">
 					<a href="../quizs/quiz1.html"><div>Quiz 1. Ingredients</div></a>
 					<a href="../quizs/quiz2.html"><div>Quiz 2. Which Fragrance?</div></a>
 					<a href="../quizs/quiz3.html"><div>Quiz 3. The Big Quiz!</div></a>
@@ -54,14 +54,20 @@ const navload = () => {
 
 		<ul class="nav mobnav">
 			<li><img src="../fragrance_imgs/chanellogo.jpg" height="65px"></li>
-			<li><a href="index.html">HOME</a></li>
+			<li><a href="../index.html">HOME</a></li>
 			<li class="block"></li>
 			<li class="mob-dropdown" id="questionmark">
 				<i class="fas fa-bars"></i>
 				<div class="mob-dropdown-content">
-					<a href="./quizs/quiz1.html"><div>Heritage</div></a>
-					<a href="./quizs/quiz2.html"><div>Les Exsclusifs</div></a>
-					<a href="./quizs/quiz3.html"><div>Notable Accords</div></a>
+					<a href="../heritage/heritage.html"><div>Heritage Range</div></a>
+					<a href="../exsclusifs/lesexsclusifs.html"><div>Les Exsclusifs</div></a>
+					<a href="../other/odourfacets.html"><div>Odour Facets</div></a>
+					<a href="../other/notableaccords.html"><div>Notable Accords</div></a>
+					<a href="../other/olfactory.html"><div>Olfactory Families</div></a>
+					<a href="../other/timeline.html"><div>Chanel History Timeline</div></a>
+					<a href="../quizs/quiz1.html"><div><b>Quiz 1.</b> Ingredients</div></a>
+					<a href="../quizs/quiz2.html"><div><b>Quiz 2.</b> Which Fragrance?</div></a>
+					<a href="../quizs/quiz3.html"><div><b>Quiz 3.</b> The Big Quiz!</div></a>
 				</div>
 			</li>
 		</ul>

@@ -51,7 +51,7 @@ nav ul {
 .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: white;
+	background-color: black;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	min-width: 280px;
 	font-size: 0.9em;
@@ -61,14 +61,20 @@ nav ul {
 	right: -80px;
 }
 
+.end-drop {
+	right: 0px;
+	min-width: 220px;
+}
+
 nav i:hover {
-	text-shadow: 0px 0px 8px #eeff00;
+	text-shadow: 0px 0px 10px #ff0800;
 }
 
 .dropdown-content div {
 	margin: 0px;
 	padding: 5px;
 	border: solid #f6f6f6 1px;
+	background-color: white;
 }
 
 .dropdown-content div:hover {
@@ -108,11 +114,11 @@ nav i:hover {
 .mob-dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: white;
+	background-color: black;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	font-size: 0.9em;
+	font-size: 1em;
 	text-align: left;
-	padding: 0px;
+	padding: 5px;
 	z-index: 1;
 	right: 0;
 	width: 100%;
@@ -120,8 +126,9 @@ nav i:hover {
 
 .mob-dropdown-content div {
 	margin: 0px;
-	padding: 5px 25px;
+	padding: 5px 0 5px 40%;
 	border: solid #f6f6f6 1px;
+	background-color: white;
 }
 
 .mob-dropdown-content div:hover {

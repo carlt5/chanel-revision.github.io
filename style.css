@@ -125,7 +125,7 @@ hr {
 	padding: 8px 22px;
 	margin: 3px 40px;
 	text-decoration: underline;
-	font-size: 25px
+	font-size: 25px;
 	border: solid;
 	border-radius: 6px;
 	background-image: linear-gradient(to right, black, #F5F5DC);
@@ -278,7 +278,6 @@ div.maincontainer a {
 	transition: all 500ms ease;
 }
 
-
 .cardinfo {
 	display: flex;
 	align-items: center;
@@ -288,6 +287,12 @@ div.maincontainer a {
 	height: 100px;
 	margin: 0px;
 	padding: 0px 10px 10px 10px;
+}
+
+.flexcontainer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 input[type="text"] {
@@ -507,4 +512,10 @@ input[type="text"] {
 	h1 {
 		font-size: 1.5em;
 	}
+	.fragranceimg {
+		width: 170px;
+	}
+	.sectionhead {
+	margin-left: 8%;
+}
 }
