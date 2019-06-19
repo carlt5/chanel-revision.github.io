@@ -3,6 +3,7 @@
 <head>
 	<title>Chanel Fragrance Revision</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="navbar.css">
 	<link href="https://fonts.googleapis.com/css?family=Oxygen:400,700" rel="stylesheet">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
@@ -10,53 +11,70 @@
 
 	<!-- Navbar Starts Here -->
 	<nav>
-		<ul id="nav">
+		<ul class="nav webnav">
 			<li><img src="fragrance_imgs/chanellogo.jpg" height="65px"></li>
 			<li><a href="index.html">HOME</a></li>
 			<li class="dropdown">
 				<p class="dropbtn">HERITAGE RANGE</p>
 				<div class="dropdown-content">
-					<a href="no5.html"><div>No. 5</div></a>
-					<a href="cocomlle.html"><div>Coco Madamoiselle & Coco Noir</div></a>
-					<a href="allure.html"><div>Allure</div></a>
-					<a href="coco.html"><div>Coco</div></a>
-					<a href="no19.html"><div>No. 19</div></a>
-					<a href="cristalle.html"><div>Cristalle</div></a>
-					<a href="allurehomme.html"><div>Allure Homme</div></a>
-					<a href="egoiste.html"><div>Egoiste/Platinum Egoiste</div></a>
-					<a href="pourmonsieur.html"><div>Pour Monsieur & Antaeus</div></a>
+					<a href="./heritage/no5.html"><div>No. 5</div></a>
+					<a href="./heritage/cocomlle.html"><div>Coco Madamoiselle & Coco Noir</div></a>
+					<a href="./heritage/allure.html"><div>Allure</div></a>
+					<a href="./heritage/coco.html"><div>Coco</div></a>
+					<a href="./heritage/no19.html"><div>No. 19</div></a>
+					<a href="./heritage/cristalle.html"><div>Cristalle</div></a>
+					<a href="./heritage/allurehomme.html"><div>Allure Homme</div></a>
+					<a href="./heritage/egoiste.html"><div>Egoiste/Platinum Egoiste</div></a>
+					<a href="./heritage/pourmonsieur.html"><div>Pour Monsieur & Antaeus</div></a>
 				</div>
 			</li>
 			<li class="dropdown">
 				<p class="dropbtn">LES EXSCLUSIFS</p>
 				<div class="dropdown-content">
-					<a href="roaring20.html"><div>The Roaring 20's</div></a>
-					<a href="locations.html"><div>The Favourite Locations</div></a>
-					<a href="addressoal.html"><div>The Address of a Lifetime</div></a>
-					<a href="gabrielleahcf.html"><div>Gabrielle Chanel and Her Close Friends</div></a>
-					<a href="leseaux.html"><div>Les Eaux</div></a>
+					<a href="./exsclusifs/roaring20.html"><div>The Roaring 20's</div></a>
+					<a href="./exsclusifs/locations.html"><div>The Favourite Locations</div></a>
+					<a href="./exsclusifs/addressoal.html"><div>The Address of a Lifetime</div></a>
+					<a href="./exsclusifs/gabrielleahcf.html"><div>Gabrielle Chanel and Her Close Friends</div></a>
+					<a href="./exsclusifs/leseaux.html"><div>Les Eaux</div></a>
 				</div>
 			</li>
 			<li class="dropdown">
 				<p class="dropbtn">OTHER</p>
 				<div class="dropdown-content">
-					<a href="olfactory.html"><div>Olfactory Families</div></a>
-					<a href="odourfacets.html"><div>Odour Facets</div></a>
-					<a href="notableaccords.html"><div>Notable Accords</div></a>
-					<a href="timeline.html"><div>Chanel History Timeline</div></a>
+					<a href="./other/olfactory.html"><div>Olfactory Families</div></a>
+					<a href="./other/odourfacets.html"><div>Odour Facets</div></a>
+					<a href="./other/notableaccords.html"><div>Notable Accords</div></a>
+					<a href="./other/timeline.html"><div>Chanel History Timeline</div></a>
 				</div>
 			</li>
 			<li class="dropdown" id="questionmark">
-				<i class="far fa-question-circle"></i>
-				<div class="dropdown-content rightDrop" id="quizdrop">
-					<a href="quiz1.html"><div>Quiz 1. Ingredients</div></a>
-					<a href="quiz2.html"><div>Quiz 2. Which Fragrance?</div></a>
-					<a href="quiz3.html"><div>Quiz 3. The Big Quiz!</div></a>
+				<i class="smargin far fa-question-circle"></i>
+				<div class="dropdown-content">
+					<a href="./quizs/quiz1.html"><div>Quiz 1. Ingredients</div></a>
+					<a href="./quizs/quiz2.html"><div>Quiz 2. Which Fragrance?</div></a>
+					<a href="./quizs/quiz3.html"><div>Quiz 3. The Big Quiz!</div></a>
+				</div>
+			</li>
+		</ul>
+
+		<!-- mobile navbar -->
+
+		<ul class="nav mobnav">
+			<li><img src="fragrance_imgs/chanellogo.jpg" height="65px"></li>
+			<li><a href="index.html">HOME</a></li>
+			<li class="block"></li>
+			<li class="mob-dropdown" id="questionmark">
+				<i class="fas fa-bars"></i>
+				<div class="mob-dropdown-content">
+					<a href="./quizs/quiz1.html"><div>Heritage</div></a>
+					<a href="./quizs/quiz2.html"><div>Les Exsclusifs</div></a>
+					<a href="./quizs/quiz3.html"><div>Notable Accords</div></a>
 				</div>
 			</li>
 		</ul>
 	</nav>
 
+<!-- Body -->
 	<div id="header">
 		<h1>CHANEL Fragrance Revision</h1>
 	</div>
@@ -65,63 +83,63 @@
 <div class="headerframe"><h1 class="sectionhead">FRAGRANCE FAMILIES</h1></div>
 	<div class="maincontainer">
 
-		<a href="no5.html"><div class="card" >
+		<a href="./heritage/no5.html"><div class="card" >
 			<img class="fragranceimg" width="200px" src="fragrance_imgs/no5.jpg">
 		<div class="cardinfo">
 			<h3>CHANEL <br>No. 5 Family</h3>
 		</div>
 		</div></a>
 
-		<a href="cocomlle.html"><div class="card">
+		<a href="./heritage/cocomlle.html"><div class="card">
 			<img class="fragranceimg" width="200px" src="fragrance_imgs/cocomlle.jpg">
 		<div class="cardinfo">
 			<h3>CHANEL <br>Coco Madamoiselle & Coco Noir Family</h3>
 		</div>
 		</div></a>
 
-		<a href="allure.html"><div class="card">
+		<a href="./heritage/allure.html"><div class="card">
 			<img class="fragranceimg" width="200px" src="fragrance_imgs/allure.jpg">
 		<div class="cardinfo">
 			<h3>CHANEL <br>Allure Family</h3>
 		</div>
 		</div></a>
 
-		<a href="coco.html"><div class="card">
+		<a href="./heritage/coco.html"><div class="card">
 			<img class="fragranceimg" width="200px" src="fragrance_imgs/coco.jpg">
 		<div class="cardinfo">
 			<h3>CHANEL <br>Coco Family</h3>
 		</div>
 		</div></a>
 
-		<a href="no19.html"><div class="card">
+		<a href="./heritage/no19.html"><div class="card">
 			<img class="fragranceimg" width="200px" src="fragrance_imgs/no19.jpg">
 		<div class="cardinfo">
 			<h3>CHANEL <br>No. 19 Family</h3>
 		</div>
 		</div></a>
 
-		<a href="cristalle.html"><div class="card">
+		<a href="./heritage/cristalle.html"><div class="card">
 			<img class="fragranceimg" width="200px" src="fragrance_imgs/cristalle.jpg">
 		<div class="cardinfo">
 			<h3>CHANEL <br>Cristalle Family</h3>
 		</div>
 		</div></a>
 
-		<a href="allurehomme.html"><div class="card">
+		<a href="./heritage/allurehomme.html"><div class="card">
 			<img class="fragranceimg" width="200px" src="fragrance_imgs/allurehomme.jpg">
 		<div class="cardinfo">
 			<h3>CHANEL <br>Allure Homme Family</h3>
 		</div>
 		</div></a>
 
-		<a href="egoiste.html"><div class="card">
+		<a href="./heritage/egoiste.html"><div class="card">
 			<img class="fragranceimg" width="200px" src="fragrance_imgs/ego.jpg">
 		<div class="cardinfo">
 			<h3>CHANEL <br>Egoiste/Platinum Egoiste</h3>
 		</div>
 		</div></a>
 
-		<a href="pourmonsieur.html"><div class="card">
+		<a href="./heritage/pourmonsieur.html"><div class="card">
 			<img class="fragranceimg" width="200px" src="fragrance_imgs/pourmonsieur.jpg">
 		<div class="cardinfo">
 			<h3>CHANEL <br>Pour Monsieur & Antaeus</h3>
@@ -135,35 +153,35 @@
 
 	<div class="maincontainer">
 
-		<a href="roaring20.html"><div class="card">
+		<a href="./exsclusifs/roaring20.html"><div class="card">
 			<img class="fragranceimg" width="200px" src="fragrance_imgs/roaring20.jpg">
 		<div class="cardinfo">
 			<h3>The Roaring 20's</h3>
 		</div>
 		</div></a>
 
-		<a href="locations.html"><div class="card">
+		<a href="./exsclusifs/locations.html"><div class="card">
 			<img class="fragranceimg" width="200px" src="fragrance_imgs/locations.jpg">
 		<div class="cardinfo">
 			<h3>The Favourite Locations</h3>
 		</div>
 		</div></a>
 
-		<a href="addressoal.html"><div class="card">
+		<a href="./exsclusifs/addressoal.html"><div class="card">
 			<img class="fragranceimg" width="200px" src="fragrance_imgs/aoal.jpg">
 		<div class="cardinfo">
 			<h3>The Address of a Lifetime</h3>
 		</div>
 		</div></a>
 
-		<a href="gabrielleahcf.html"><div class="card">
+		<a href="./exsclusifs/gabrielleahcf.html"><div class="card">
 			<img class="fragranceimg" width="200px" src="fragrance_imgs/gahcf.jpg">
 		<div class="cardinfo">
 			<h3>Gabrielle Chanel and her Close Friends</h3>
 		</div>
 		</div></a>
 
-		<a href="leseaux.html"><div class="card">
+		<a href="./exsclusifs/leseaux.html"><div class="card">
 			<img class="fragranceimg" width="200px" src="fragrance_imgs/leseaux.jpg">
 		<div class="cardinfo">
 			<h3>Les Eaux</h3>
@@ -174,28 +192,28 @@
 <hr>
 <!-- end section -->
 <div class="maincontainer">
-		<a href="odourfacets.html"><div class="card">
+		<a href="./other/odourfacets.html"><div class="card">
 			<img class="fragranceimg" width="200px" src="fragrance_imgs/odourfacets.jpg">
 		<div class="cardinfo">
 			<h3>Odour Facets</h3>
 		</div>
 		</div></a>
 
-		<a href="notableaccords.html"><div class="card">
+		<a href="./other/notableaccords.html"><div class="card">
 			<img class="fragranceimg" width="200px" src="fragrance_imgs/accord.jpg">
 		<div class="cardinfo">
 			<h3>Notable Accords</h3>
 		</div>
 		</div></a>
 
-		<a href="olfactory.html"><div class="card">
+		<a href="./other/olfactory.html"><div class="card">
 			<img class="fragranceimg" width="200px" src="fragrance_imgs/olfactory.jpg">
 		<div class="cardinfo">
 			<h3>Olfactory Families</h3>
 		</div>
 		</div></a>
 
-		<a href="timeline.html"><div class="card">
+		<a href="./other/timeline.html"><div class="card">
 			<img class="fragranceimg" width="200px" src="fragrance_imgs/timeline.jpg">
 		<div class="cardinfo">
 			<h3>Chanel History Timeline</h3>
@@ -207,21 +225,21 @@
 <div class="headerframe"><h1 class="sectionhead">QUIZZES</h1></div>
 
 <div class="maincontainer">
-		<a href="quiz1.html"><div class="card">
+		<a href="./quizs/quiz1.html"><div class="card">
 			<img class="fragranceimg" width="200px" src="fragrance_imgs/quiz1.jpg">
 		<div class="cardinfo">
 			<h3>All About Ingredients</h3>
 		</div>
 		</div></a>
 
-		<a href="quiz2.html"><div class="card">
+		<a href="./quizs/quiz2.html"><div class="card">
 			<img class="fragranceimg" width="200px" src="fragrance_imgs/chanelfragrance.jpg">
 		<div class="cardinfo">
 			<h3>Which Fragrance?</h3>
 		</div>
 		</div></a>
 
-		<a href="quiz3.html"><div class="card">
+		<a href="./quizs/quiz3.html"><div class="card">
 			<img class="fragranceimg" width="200px" src="fragrance_imgs/quiz2.jpg">
 		<div class="cardinfo">
 			<h3>The Big Quiz!</h3>

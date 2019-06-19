@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CHANEL Fragrance Review</title>
+	<link rel="stylesheet" type="text/css" href="quiz.css">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+<body>
+
+	<!-- Navbar Starts Here -->
+	<nav id='navbody'></nav>
+
+<!-- Header Bar -->
+	<div id="header">
+		<h1>CHANEL Fragrance: The Big Quiz</h1>
+	</div>
+
+<!-- Start of Quiz -->
+<div id="main">
+
+	<div id="startHolder">
+		<h1>Time to test all of your fragrance knowledge!</h1><br><h2>When you click start a question will appear on the screen with 5 possible answers.<br>Select the correct answer to move on to the next.<br>You have 20 seconds to answer each question but get it wrong or run out of time and the games over.<br> Good Luck! </h2>
+		<button id="start">Start</button>
+	</div>
+
+	<div id="quizHolder">
+		<h3 id="question"></h3>
+			<div id="buttonHolder">
+				<button id="answer1"></button>
+				<button id="answer2"></button>
+				<button id="answer3"></button>
+				<button id="answer4"></button>
+				<button id="answer5"></button>
+			</div>
+			<div id="score"></div>
+			<div id="timerBar"><div id="timerFill"></div></div>
+	</div>	
+
+	<div id="endHolder">
+		<div>
+			<h2 id="endMessage"></h2>
+		</div>
+		<div id="finalScore"></div>
+		<button id="playAgain">Play Again?</button>
+	</div>
+
+</div>
+
+<!-- Buttons & Results -->
+
+<div id="resultsbar">
+	<div class ="info" id="results"></div>
+	<div id="trybar">Would you like to <button id="tryagain">Try Again?</button></div>
+</div>
+
+<script type="text/javascript" src="bigquiz.js"></script>
+<script type="text/javascript" src="../navbar.js"></script>
+</body>
+</html>

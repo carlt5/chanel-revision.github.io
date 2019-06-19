@@ -1,0 +1,135 @@
+nav {
+	position: sticky;
+  	position: -webkit-sticky;
+  	top: 0;
+	margin: 0px;
+	padding: 5px 0px 0px 0px;
+	background-color: white;
+	border-bottom: solid #a3a3a3 1px;
+	z-index: 20;
+	width: 100%;
+}
+
+nav ul {
+	margin: 0px;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 0;
+}
+
+.nav li {
+	display: inline;
+	list-style-type: none;
+	margin: 0px;
+	font-size: calc(0.8em + 0.6vw);
+	padding-right: 20px;
+}
+
+#header {
+	background-color: white;
+	margin: 0px 0px 15px 0px;
+	padding: 10px 5px 10px 5px;
+	border-bottom: solid 3px black;
+	border-bottom-right-radius: 80px;
+	box-shadow: 6px 6px 10px -6px grey;
+}
+
+.dropbtn {
+	font-size: 1em;
+	cursor: default;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: white;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	min-width: 280px;
+	font-size: 0.9em;
+	text-align: left;
+	padding: 5px;
+	z-index: 1;
+	right: -80px;
+}
+
+nav i:hover {
+	text-shadow: 0px 0px 8px #eeff00;
+}
+
+.dropdown-content div {
+	margin: 0px;
+	padding: 5px;
+	border: solid #f6f6f6 1px;
+}
+
+.dropdown-content div:hover {
+	background-color: #f9f9f9;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.smargin {
+	margin: 11px;
+}
+
+.mobnav {
+	display: none;
+}
+
+.block {
+	flex-grow: 3;
+}
+
+@media screen and (max-width: 686px) {
+	.mobnav {
+		display: flex;
+		font-size: 110%;
+	}
+	.webnav {
+		display: none;
+	}
+}
+
+.fas{
+	font-size: 110%;
+	margin: 25px;
+}
+.mob-dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: white;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	font-size: 0.9em;
+	text-align: left;
+	padding: 0px;
+	z-index: 1;
+	right: 0;
+	width: 100%;
+}
+
+.mob-dropdown-content div {
+	margin: 0px;
+	padding: 5px;
+	border: solid #f6f6f6 1px;
+}
+
+.mob-dropdown-content div:hover {
+	background-color: #f9f9f9;
+}
+
+.mob-dropdown:hover .mob-dropdown-content {
+	display: block;
+}
+
+
