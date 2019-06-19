@@ -26,6 +26,7 @@ h2 {
 h3 {
 	padding: 0px;
 	margin: 0px;
+	white-space: normal;
 }
 
 h4 {
@@ -251,10 +252,17 @@ hr {
 	font-size: 30px;
 }
 
+/* -- Landing Page Styles -- */
+
 .maincontainer {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
+	overflow: auto;
+	white-space: nowrap;
+	text-align: center;
+}
+
+div.maincontainer a {
+	display: inline-block;
+	vertical-align: top;
 }
 
 .card {
@@ -265,11 +273,11 @@ hr {
 }
 
 .card:hover {
-	box-shadow: 5px 5px 8px rgba(55, 55, 55, 0.5);
+	box-shadow: 5px 5px 8px rgba(55, 55, 55, 0.2);
 	transform: scale(1.01,1.01);
 	transition: all 500ms ease;
-
 }
+
 
 .cardinfo {
 	display: flex;

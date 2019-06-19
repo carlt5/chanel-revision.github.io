@@ -94,7 +94,7 @@ nav i:hover {
 @media screen and (max-width: 700px) {
 	.mobnav {
 		display: flex;
-		font-size: 110%;
+		font-size: 100%;
 	}
 	.webnav {
 		display: none;
@@ -102,7 +102,7 @@ nav i:hover {
 }
 
 .fas{
-	font-size: 110%;
+	font-size: 120%;
 	margin: 25px;
 }
 .mob-dropdown-content {
@@ -120,7 +120,7 @@ nav i:hover {
 
 .mob-dropdown-content div {
 	margin: 0px;
-	padding: 5px;
+	padding: 5px 25px;
 	border: solid #f6f6f6 1px;
 }
 
