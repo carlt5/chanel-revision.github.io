@@ -22,11 +22,20 @@
 <div id="main">
 
 	<div id="startHolder">
-		<h1>Time to test all of your fragrance knowledge!</h1><br><h2>When you click start a question will appear on the screen with 5 possible answers.<br>Select the correct answer to move on to the next.<br>You have 20 seconds to answer each question but get it wrong or run out of time and the games over.<br> Good Luck! </h2>
+		<h1>Time to test all of your fragrance knowledge!</h1>
+		<h2>When you click <b class="red">start</b> a question will appear on the screen with <b class="red">5 possible answers</b>.</h2>
+		<h2>Select the correct answer to move on to the next.</h2>
+		<h2>You have <b class="red">20 seconds</b> to answer each question, get it wrong or run out of time and you will lose one of your <b class="red">3 lives</b>.
+		<h2>Good Luck!</h2>
 		<button id="start">Start</button>
 	</div>
 
-	<div id="quizHolder">
+	<div id="quizholder">
+		<div class="info-bar">
+			<div class="lives"><i class="fas fa-heart heart1"></i><i class="fas fa-heart heart2"></i><i class="fas fa-heart"></i>
+			</div>
+			<div id="score"></div>
+		</div>
 		<h3 id="question"></h3>
 			<div id="buttonHolder">
 				<button id="answer1"></button>
@@ -35,7 +44,6 @@
 				<button id="answer4"></button>
 				<button id="answer5"></button>
 			</div>
-			<div id="score"></div>
 			<div id="timerBar"><div id="timerFill"></div></div>
 	</div>	
 

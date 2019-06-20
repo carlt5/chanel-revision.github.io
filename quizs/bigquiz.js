@@ -1,7 +1,7 @@
 let score = 0;
 let lives = 3;
 
-const begin = document.getElementById("start")
+const begin = document.getElementById("start");
 const question = document.getElementById("question");
 const a1 = document.getElementById("answer1");
 const a2 = document.getElementById("answer2");
@@ -320,7 +320,7 @@ const questions = [
 
 // random number generator for choosing questions //
 const randomQuestion = () => {
-	if (arr.length == questions.length) {
+	if (arr.length == 15) {
 		endQuiz()
 	} 
 	else {
@@ -357,10 +357,10 @@ const checkAnswer = (answer) => {
 		randomQuestion()
 	} else {
 		if (lives == 1) {
-			endQuiz()
+			endQuiz();
 		}
 		else {
-			lives--;
+			loseLife();
 			console.log(lives);
 			randomQuestion();
 		}
@@ -368,7 +368,7 @@ const checkAnswer = (answer) => {
 };
 
 const start = () => {
-	document.getElementById("quizHolder").style.display = "block";
+	document.getElementById("quizholder").style.display = "block";
 	document.getElementById("startHolder").style.display = "none";
 		countDown = setInterval(timer, 100);
 		randomQuestion();
@@ -377,9 +377,9 @@ const start = () => {
 
 const endQuiz = () => {
 	clearInterval(countDown);
-	document.getElementById("quizHolder").style.display = "none";
+	document.getElementById("quizholder").style.display = "none";
 	document.getElementById("endHolder").style.display = "block";
-	let scorePercent = Math.round(100 * (score / (questions.length * 3)));
+	let scorePercent = Math.round(100 * (score / (15 * 3)));
 	finalScore.innerHTML = "<h1>You Scored " + score +" Points! (" + scorePercent + "%)</h1>";
 
 	let message = (scorePercent >= 80) ? "Amazing Job! You really know your stuff!" :
@@ -401,15 +401,28 @@ const scoreAdder = () => {
 };
 
 const updateScore = () => {
-	currentScore.innerHTML = "<h2>Current Score: " + score +"</h2>"
+	currentScore.innerHTML = `<h2>Current Score: ${score}</h2>`
+};
+
+const loseLife = () => {
+	if (lives == 3) {
+		lives--;
+		document.querySelector(".heart1").style.color = "black";
+	} else { 
+		lives--;
+		document.querySelector(".heart2").style.color = "black";
+	}
 }
 
 const reset = () => {
 	arr.length = 0;
 	score = 0;
+	lives = 3;
 	document.getElementById("endHolder").style.display = "none";
 	document.getElementById("startHolder").style.display = "block";
-}
+	document.querySelector(".heart1").style.color = "red";
+	document.querySelector(".heart2").style.color = "red";
+};
 
 // Timer //
 const total = 200;

@@ -116,19 +116,19 @@ hr {
 .headerframe {
 	background-color: black;
 	margin: 15px 0px 5px 0px;
-	border-top: solid white 3px;
-	border-bottom: solid white 3px;
+	border-top: solid gold 3px;
+	border-bottom: solid gold 3px;
 }
 
 .fragrance {
-	color: #F5F5DC; 
+	color: white; 
 	padding: 8px 22px;
 	margin: 3px 40px;
 	text-decoration: underline;
 	font-size: 25px;
-	border: solid;
+	border: gold solid;
 	border-radius: 6px;
-	background-image: linear-gradient(to right, black, #F5F5DC);
+	background-color: black;
 }
 
 .ingredients {

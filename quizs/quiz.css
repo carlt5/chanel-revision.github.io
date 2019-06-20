@@ -5,11 +5,11 @@ html {
 }
 
 body {
-	background-color: #F5F5DC;
+	background-color: black;
 	font-family: 'Oxygen', sans-serif;
 	margin: 0;
 	padding: 0;
-	cursor: default;
+	cursor: default;;
 }
 
 a {
@@ -67,7 +67,16 @@ p {
 	margin: 10px;
 	background-color: white;
 	border: solid black 2px;
+	border-radius: 10px;
+	display: none;
+}
 
+#quizHolder{
+	display: block;
+	margin: 10px;
+	background-color: white;
+	border: solid black 2px;
+	border-radius: 10px;
 }
 
 .h {
@@ -93,18 +102,20 @@ input {
 
 button {
 	cursor: pointer;
-	font-size: 25px;
+	font-size: 1.5em;
 	padding: 10px 50px;
-	margin: 20px;
+	margin: 15px;
 	background-color: white;
 	color: black;
 	border: solid 2px black;
+	outline: none;
 }
 
 button:hover {
 	box-shadow: 3px 3px 5px grey;
 	background-color: #e5e5e5;
 	transition: all 500ms ease; 
+	outline: none;
 }
 
 #tryagain {
@@ -142,9 +153,8 @@ button:hover {
 	border-radius: 10px;
 }
 
-#quizHolder {
-	display: none;
-	margin: 10px;
+b.red {
+	color: #c60021;
 }
 
 #fragranceTitle {
@@ -192,4 +202,36 @@ width: 0%;
 height: 30px;
 border-radius: 5px;
 background-color: green;
+}
+
+i.fa-heart {
+	padding: 0px;
+	margin: 15px 3px 3px 0px;
+	color: red;
+}
+
+.info-bar {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 30px;
+	width: 90%;
+}
+
+#score h2 {
+	text-align: center;
+	display: block;
+	white-space: nowrap;
+}
+
+@media screen and (max-width: 700px) {
+	button {
+		margin: 5px;
+		padding: 5px 25px;
+	}
+	h1 {
+		font-size: 1.5em;
+	}
+	h2 {
+		font-size: 1.2em
+	}
 }
