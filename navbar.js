@@ -53,7 +53,7 @@ const navload = () => {
 		<!-- mobile navbar -->
 
 		<ul class="nav mobnav">
-			<li><img src="../fragrance_imgs/chanellogo.jpg" height="65px"></li>
+			<li><img src="../fragrance_imgs/chanellogo.jpg" height="50px"></li>
 			<li><a href="../index.html">HOME</a></li>
 			<li class="block"></li>
 			<li class="mob-dropdown" id="questionmark">

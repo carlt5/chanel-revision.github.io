@@ -316,43 +316,6 @@ input[type="text"] {
 	margin: 1px;
 }
 
-#citrus:hover {
-	background-color: rgba(252, 255, 58, 0.1);
-	transition: all 700ms;
-}
-#greenfloral:hover {
-	background-color: rgba(126, 255, 58, 0.1);
-	transition: all 700ms;
-}
-#lightfloral:hover {
-	background-color: rgba(255, 140, 228, 0.2);
-	transition: all 700ms;
-}
-#intensefloral:hover {
-	background-color: rgba(255, 0, 200, 0.3);
-	transition: all 700ms;
-}
-#aromatic:hover {
-	background-color: rgba(206, 94, 255, 0.2);
-	transition: all 700ms;
-}
-#softwoody:hover {
-	background-color: rgba(255, 182, 103, 0.1);
-	transition: all 700ms;
-}
-#deepwoody:hover {
-	background-color: rgba(130, 56, 0, 0.2);
-	transition: all 700ms;
-}
-#softoriental:hover {
-	background-color: rgba(255, 119, 16, 0.1);
-	transition: all 700ms;
-}
-#envoriental:hover {
-	background-color: rgba(255, 0, 0, 0.2);
-	transition: all 700ms;
-}
-
 #olfactories p {
 	font-size: 13px;
 	margin: 0px 0px 8px 0px;
